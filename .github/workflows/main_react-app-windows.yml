@@ -52,6 +52,6 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: "DuneMasterBot"
-          slot-name: "prod"
+          slot-name: "Production"
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
